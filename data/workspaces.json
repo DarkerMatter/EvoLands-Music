@@ -561,8 +561,7 @@
                         "8EsEFWVy7u"
                     ],
                     "voice_connection": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "number",
@@ -582,8 +581,7 @@
                         "R4MS7YuKiB",
                         "yKqTSsuPpf"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "command_event_with_text",
@@ -648,7 +646,7 @@
                 },
                 "options": {
                     "arguments_type": "arguments",
-                    "comparison_type": "less_than"
+                    "comparison_type": "equal"
                 },
                 "outputs": {
                     "action1": [
@@ -691,8 +689,7 @@
                     "message_embed": [
                         "zn6dJaNwHP"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "send_message",
@@ -715,8 +712,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -736,8 +732,7 @@
                         "snqDJyB7jD",
                         "hjYCbKsfzf"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -757,8 +752,7 @@
                         "X6p3cclvGP",
                         "g22XB74cZl"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "color",
@@ -778,8 +772,7 @@
                         "GKG9mAMdl0",
                         "OyNYXx3HbN"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -798,8 +791,7 @@
                     "text": [
                         "SBcFMgHN8z"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -818,8 +810,7 @@
                     "text": [
                         "DWcvOhMH17"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -839,8 +830,7 @@
                         "GdrqLABOsP",
                         "ys3sJcvFEB"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "create_embed_message",
@@ -874,8 +864,7 @@
                     "message_embed": [
                         "WPMvjYYqhv"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "add_message_embed_field",
@@ -924,8 +913,7 @@
                     "text": [
                         "9A6bnDWz82"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -944,8 +932,7 @@
                     "text": [
                         "voXV6o4wvV"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "add_message_embed_field",
@@ -998,8 +985,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_youtube_video_infos",
@@ -1034,8 +1020,7 @@
                     "channel": [],
                     "channelurl": [],
                     "channelverified": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "add_message_embed_field",
@@ -1084,8 +1069,7 @@
                     "text": [
                         "hoB2OcLyHW"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "leave_voice_channel",
@@ -1105,8 +1089,7 @@
                     "action": [
                         "LkZFvYhAPN"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "command_event_alias",
@@ -1195,8 +1178,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text_first",
@@ -1215,8 +1197,7 @@
                     "text": [
                         "UcYusMP7Hn"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "clear_server_queue",
@@ -1234,8 +1215,7 @@
                 },
                 "outputs": {
                     "action": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "command_event_with_text",
@@ -1316,8 +1296,7 @@
                     "text": [
                         "gTfRruP6Mw"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "send_message_first",
@@ -1340,8 +1319,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "command_event_with_text",
@@ -1422,8 +1400,7 @@
                     "text": [
                         "I6wUAzvOoI"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "send_message",
@@ -1446,8 +1423,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "clear_server_queue",
@@ -1465,8 +1441,7 @@
                 },
                 "outputs": {
                     "action": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "control_bot_audio",
@@ -1558,8 +1533,7 @@
                     "channel": [],
                     "channelurl": [],
                     "channelverified": []
-                },
-                "options": {}
+                }
             }
         ],
         "notes": []
