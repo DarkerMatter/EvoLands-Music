@@ -1,6 +1,3074 @@
 [
     {
         "info": {
+            "title": "YT volume (bot owner)",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 4,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "i3wUAEtPwr"
+                },
+                "options": {
+                    "command_name": "volume",
+                    "custom_prefix": "",
+                    "command_restriction": "bot_owner_only",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "xc7fOJ8vtf"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "OWPHUKx4sL",
+                        "8iaVlfv82K"
+                    ],
+                    "channel": [
+                        "3Y57cPhuJ8"
+                    ],
+                    "user": [],
+                    "error_message": [],
+                    "server": [],
+                    "vc": [],
+                    "member": []
+                }
+            },
+            {
+                "name": "set_audio_volume",
+                "info": {
+                    "x": 1274,
+                    "y": 145,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 219
+                },
+                "inputs": {
+                    "action": "5MRp7dhrgD",
+                    "server": "qWOtVX7nq8",
+                    "volume": "99kpxE54WC"
+                },
+                "outputs": {
+                    "action": [
+                        "2IgsHxBZaF"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 778,
+                    "y": 11,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "xc7fOJ8vtf",
+                    "message": "OWPHUKx4sL"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "QJS16jTMO2"
+                    ],
+                    "result": [
+                        "qWOtVX7nq8"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_arguments",
+                "info": {
+                    "x": 802,
+                    "y": 140,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 238,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "QJS16jTMO2",
+                    "message": "8iaVlfv82K",
+                    "argument_number": "KDeHf27XPo",
+                    "custom_argument_separator": "LWpSpDXC6R"
+                },
+                "options": {
+                    "argument_type": "one_argument"
+                },
+                "outputs": {
+                    "action": [
+                        "5MRp7dhrgD"
+                    ],
+                    "result": [
+                        "99kpxE54WC",
+                        "FWYE0Duizm"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 433,
+                    "y": 429,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "1"
+                },
+                "outputs": {
+                    "number": [
+                        "KDeHf27XPo"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 1524,
+                    "y": 145,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "2IgsHxBZaF",
+                    "text1": "FWYE0Duizm",
+                    "text2": "9Y5hMDU06O",
+                    "text3": "UPj5xBsnub"
+                },
+                "options": {
+                    "text": "Bot audio volume changed to: ${text1}."
+                },
+                "outputs": {
+                    "action": [
+                        "TmKAtBxOIb"
+                    ],
+                    "text": [
+                        "UW8ZUVxgyA"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_first",
+                "info": {
+                    "x": 1530,
+                    "y": 347,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "TmKAtBxOIb",
+                    "channel": "3Y57cPhuJ8",
+                    "text": "UW8ZUVxgyA",
+                    "embed": "kr5Iey2klN",
+                    "attachment": "eaMzDDPA2G",
+                    "split_message": "Si1Fifpgq7"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "YT Skip",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "3oX4tgBXoj"
+                },
+                "options": {
+                    "command_name": "skip",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "8PKx8PFakC"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "I4u9aJOWTp",
+                        "ML6Q3HR2hZ",
+                        "IfqsYoPims"
+                    ],
+                    "channel": [
+                        "643POHR9RN",
+                        "S6D57ADytx"
+                    ],
+                    "user": [],
+                    "error_message": [],
+                    "server": [],
+                    "vc": [],
+                    "member": []
+                }
+            },
+            {
+                "name": "control_bot_audio",
+                "info": {
+                    "x": 1916,
+                    "y": 197,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 386
+                },
+                "inputs": {
+                    "action": "tnyz9Lvssc",
+                    "server": "ekEubWlaAI"
+                },
+                "options": {
+                    "audio_action_type": "end"
+                },
+                "outputs": {
+                    "action": [
+                        "RMhESG5ZoJ"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 821,
+                    "y": 65,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "8PKx8PFakC",
+                    "message": "I4u9aJOWTp"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "3BvQRpmUM3"
+                    ],
+                    "result": [
+                        "ekEubWlaAI"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 824,
+                    "y": 204,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "3BvQRpmUM3",
+                    "message": "ML6Q3HR2hZ"
+                },
+                "options": {
+                    "message_info": "16"
+                },
+                "outputs": {
+                    "action": [
+                        "aXFrbO7MGU"
+                    ],
+                    "result": [
+                        "VMTbYfCaqW"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 827,
+                    "y": 336,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "aXFrbO7MGU",
+                    "member": "VMTbYfCaqW"
+                },
+                "options": {
+                    "member_info": "28"
+                },
+                "outputs": {
+                    "action": [
+                        "QgPCkqcjeo"
+                    ],
+                    "result": [
+                        "3x5m5JUBRn"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 1620,
+                    "y": 359,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "QgPCkqcjeo",
+                    "value": "3x5m5JUBRn"
+                },
+                "outputs": {
+                    "action1": [
+                        "tnyz9Lvssc"
+                    ],
+                    "action2": [
+                        "giKoVYqzsT"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 2002,
+                    "y": 505,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "giKoVYqzsT",
+                    "channel": "643POHR9RN",
+                    "embed": "VCLn2APZqR",
+                    "attachment": "8YgY9J0cSI",
+                    "split_message": "mdhJJORnj2"
+                },
+                "options": {
+                    "text": "You're not even in a voice channel."
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 2381,
+                    "y": 224,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "RMhESG5ZoJ",
+                    "channel": "S6D57ADytx",
+                    "embed": "TUOAv8eQdQ",
+                    "attachment": "feSmnAjRf9",
+                    "split_message": "Dlf5XvjX2u"
+                },
+                "options": {
+                    "text": "Track Skipped"
+                },
+                "outputs": {
+                    "action": [
+                        "BRX9DoqQ8z"
+                    ],
+                    "message": []
+                }
+            },
+            {
+                "name": "add_reaction",
+                "info": {
+                    "x": 2857,
+                    "y": 761,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 228
+                },
+                "inputs": {
+                    "action": "BRX9DoqQ8z",
+                    "message": "IfqsYoPims",
+                    "emoji": "NeTbkrdbYq"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 2310,
+                    "y": 780,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "👌"
+                },
+                "outputs": {
+                    "text": [
+                        "NeTbkrdbYq"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "YT remove",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 173,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "Vj9grUH8IJ"
+                },
+                "options": {
+                    "command_name": "remove",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "GQLxs49E9i"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "N3Nqx4FrKN",
+                        "kbnbYP3HYe",
+                        "xq2YmC17nG",
+                        "T487T9OHJz"
+                    ],
+                    "channel": [
+                        "7LczTHldai",
+                        "TjDVybeHey"
+                    ],
+                    "user": [],
+                    "error_message": [],
+                    "server": [],
+                    "vc": [],
+                    "member": []
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 792,
+                    "y": 187,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "GQLxs49E9i",
+                    "message": "N3Nqx4FrKN"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "mhDoOE2ptf"
+                    ],
+                    "result": [
+                        "lC7Z7hYzlW",
+                        "9sUoH5kmQ2"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 791,
+                    "y": 326,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "mhDoOE2ptf",
+                    "message": "kbnbYP3HYe"
+                },
+                "options": {
+                    "message_info": "16"
+                },
+                "outputs": {
+                    "action": [
+                        "7j4JrGRdcW"
+                    ],
+                    "result": [
+                        "dCg5tbuz9P"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 795,
+                    "y": 461,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "7j4JrGRdcW",
+                    "member": "dCg5tbuz9P"
+                },
+                "options": {
+                    "member_info": "28"
+                },
+                "outputs": {
+                    "action": [
+                        "ZrX01enrHX"
+                    ],
+                    "result": [
+                        "EyKXTlk8hN"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 1569,
+                    "y": 460,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "ZrX01enrHX",
+                    "value": "EyKXTlk8hN"
+                },
+                "outputs": {
+                    "action1": [
+                        "3fgFAUtapm"
+                    ],
+                    "action2": [
+                        "P0lQ3W5FBi"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 1064,
+                    "y": 611,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "P0lQ3W5FBi",
+                    "channel": "7LczTHldai",
+                    "embed": "m1xxFmKSJm",
+                    "attachment": "pvBAlXrwTS",
+                    "split_message": "XEwXtCi7YA"
+                },
+                "options": {
+                    "text": "How about you join a voice channel first?"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "remove_audio_from_server_queue",
+                "info": {
+                    "x": 2385,
+                    "y": 578,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "BtBYRSPrZF",
+                    "server": "lC7Z7hYzlW",
+                    "custom_position": "BtYX5iVcdS"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "JVzIufCT5f"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_arguments",
+                "info": {
+                    "x": 1807,
+                    "y": 274,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 238,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "BjB2kJQ0PA",
+                    "message": "xq2YmC17nG",
+                    "argument_number": "bVjOt6pAyB",
+                    "custom_argument_separator": "9QfS84wwyP"
+                },
+                "options": {
+                    "argument_type": "one_argument"
+                },
+                "outputs": {
+                    "action": [
+                        "A2XLCfabyc"
+                    ],
+                    "result": [
+                        "BtYX5iVcdS",
+                        "wesewmLDdr"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 1470,
+                    "y": 257,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "1"
+                },
+                "outputs": {
+                    "number": [
+                        "bVjOt6pAyB"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_bot_audio_info",
+                "info": {
+                    "x": 1417,
+                    "y": 30,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 563
+                },
+                "inputs": {
+                    "action": "3fgFAUtapm",
+                    "server": "9sUoH5kmQ2"
+                },
+                "options": {
+                    "audio_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "BjB2kJQ0PA"
+                    ],
+                    "result": [
+                        "uhiUEXe9jG"
+                    ]
+                }
+            },
+            {
+                "name": "get_youtube_video_info",
+                "info": {
+                    "x": 2457,
+                    "y": 235,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 551
+                },
+                "inputs": {
+                    "action": "8moDEhlaYG",
+                    "search_value": "Cn4Y8fI7Za",
+                    "result_number": "MC1uSC8yDM"
+                },
+                "options": {
+                    "video_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "BtBYRSPrZF"
+                    ],
+                    "result": [
+                        "DpTYp5Ctp1"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list",
+                "info": {
+                    "x": 2244,
+                    "y": 30,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "A2XLCfabyc",
+                    "list": "uhiUEXe9jG",
+                    "custom_position": "wesewmLDdr"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "8moDEhlaYG"
+                    ],
+                    "value": [
+                        "Cn4Y8fI7Za"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 2893,
+                    "y": 406,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "JVzIufCT5f",
+                    "text1": "DpTYp5Ctp1",
+                    "text2": "0mh7uK9sKG",
+                    "text3": "mUsNAasV42"
+                },
+                "options": {
+                    "text": "Removed: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "VShlkGKoTJ"
+                    ],
+                    "text": [
+                        "ET03aOglQg"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_first",
+                "info": {
+                    "x": 2859,
+                    "y": 780,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "VShlkGKoTJ",
+                    "channel": "TjDVybeHey",
+                    "text": "ET03aOglQg",
+                    "embed": "K3336bNjge",
+                    "attachment": "IbDpgdrSFC",
+                    "split_message": "aNZw7x8Cd3"
+                },
+                "outputs": {
+                    "action": [
+                        "arZPcrXCDM"
+                    ],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "add_reaction",
+                "info": {
+                    "x": 3220,
+                    "y": 971,
+                    "z": 15,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 228
+                },
+                "inputs": {
+                    "action": "arZPcrXCDM",
+                    "message": "T487T9OHJz",
+                    "emoji": "uroXztGNTz"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 2843,
+                    "y": 1078,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "👌"
+                },
+                "outputs": {
+                    "text": [
+                        "uroXztGNTz"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "YT queue",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "get_bot_audio_info",
+                "info": {
+                    "x": 868,
+                    "y": 177,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 563
+                },
+                "inputs": {
+                    "action": "F8uK7nbqRe",
+                    "server": "NvfhjViwx7"
+                },
+                "options": {
+                    "audio_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "Gl1HM0GFB4"
+                    ],
+                    "result": [
+                        "jg4R1vAg7a",
+                        "AyAPVAjjp0",
+                        "45QZT2UXxI"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 27,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "5Rr9VDWc9G"
+                },
+                "options": {
+                    "command_name": "queue",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "3TMkJTwHPu"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "iIMv5ohWTc",
+                        "94Ixsw62aY"
+                    ],
+                    "channel": [
+                        "x96btvj9qD",
+                        "il4HUEGv3T",
+                        "xYIFdFBzPl",
+                        "Rta3cAIk9i"
+                    ],
+                    "user": [],
+                    "error_message": [],
+                    "server": [],
+                    "vc": [],
+                    "member": []
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 793,
+                    "y": 29,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "3TMkJTwHPu",
+                    "message": "iIMv5ohWTc"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "F8uK7nbqRe"
+                    ],
+                    "result": [
+                        "NvfhjViwx7",
+                        "g8nnQQsALP",
+                        "cDjnevHKYP",
+                        "IfzrtKCICv",
+                        "9sRPlFHNMb",
+                        "WI03Osgg9W",
+                        "JgSsxAiQ4i"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_first",
+                "info": {
+                    "x": 3349,
+                    "y": 919,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "eyR9YEaqm5",
+                    "channel": "x96btvj9qD",
+                    "text": "FNMCe97FF0",
+                    "embed": "UAJGGNGY8V",
+                    "attachment": "Xl3v0cEW5C",
+                    "split_message": "mFGbKZO99t"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "get_item_from_list",
+                "info": {
+                    "x": 1364,
+                    "y": 581,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "UYOgQ8FFrD",
+                    "list": "jg4R1vAg7a",
+                    "custom_position": "NVX9UqwnoE"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "3KV70oBLSz"
+                    ],
+                    "value": [
+                        "WvN7JaaosM",
+                        "wiKNmb1eV8"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 475,
+                    "y": 884,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "1"
+                },
+                "outputs": {
+                    "number": [
+                        "QCaMakvAL5",
+                        "TfiKmo9TZB",
+                        "G3YLT9LIqz"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_data",
+                "info": {
+                    "x": 869,
+                    "y": 574,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 392
+                },
+                "inputs": {
+                    "action": "F4ygyUqIFK",
+                    "name": "CQ2ArUuD1Z",
+                    "target": "g8nnQQsALP"
+                },
+                "options": {
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "UYOgQ8FFrD"
+                    ],
+                    "value": [
+                        "NVX9UqwnoE",
+                        "2kvCg0jTcE",
+                        "Wg5FEYru1y"
+                    ]
+                }
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 452,
+                    "y": 709,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "queue"
+                },
+                "outputs": {
+                    "text": [
+                        "CQ2ArUuD1Z",
+                        "jEnzztTsWI",
+                        "MeEK93gdko"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "control_data",
+                "info": {
+                    "x": 894,
+                    "y": 301,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 404
+                },
+                "inputs": {
+                    "action": "uqBLZyotAk",
+                    "name": "jEnzztTsWI",
+                    "value": "QCaMakvAL5",
+                    "target": "cDjnevHKYP"
+                },
+                "options": {
+                    "action_type": "set",
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "yZnBkE3NwW"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 1329,
+                    "y": 773,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "3KV70oBLSz",
+                    "value": "WvN7JaaosM"
+                },
+                "outputs": {
+                    "action1": [
+                        "YQOw9vSL6B"
+                    ],
+                    "action2": [
+                        "Mm8uPlJGnF"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 855,
+                    "y": 940,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "z79TgHoDzT",
+                    "action2": "BWsnDEa6QL"
+                },
+                "outputs": {
+                    "action": [
+                        "F4ygyUqIFK"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "control_data",
+                "info": {
+                    "x": 1280,
+                    "y": 919,
+                    "z": 15,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 404
+                },
+                "inputs": {
+                    "action": "YQOw9vSL6B",
+                    "name": "MeEK93gdko",
+                    "value": "TfiKmo9TZB",
+                    "target": "IfzrtKCICv"
+                },
+                "options": {
+                    "action_type": "add",
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "JfoOQ5wL2N"
+                    ]
+                }
+            },
+            {
+                "name": "get_youtube_video_info",
+                "info": {
+                    "x": 1092,
+                    "y": 1360,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 551
+                },
+                "inputs": {
+                    "action": "ORFlOg2Mek",
+                    "search_value": "46B6SEbcib",
+                    "result_number": "4PE8cwmPgA"
+                },
+                "options": {
+                    "video_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "sQ4OabEkTt"
+                    ],
+                    "result": [
+                        "AJOg5JnfN8",
+                        "r7Hp2atadH"
+                    ]
+                }
+            },
+            {
+                "name": "create_list",
+                "info": {
+                    "x": 1305,
+                    "y": 407,
+                    "z": 17,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "yZnBkE3NwW"
+                },
+                "outputs": {
+                    "action": [
+                        "z79TgHoDzT"
+                    ],
+                    "list": [
+                        "gMAezczCDO",
+                        "E9Nn4qxqQ0"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 2276,
+                    "y": 1543,
+                    "z": 18,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "4BNfz73Kad",
+                    "list": "gMAezczCDO",
+                    "item": "d6buxliLi6",
+                    "custom_position": "pkS7QG93wv"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "YerhSBsOms"
+                    ],
+                    "list": [
+                        "y7J8RDsaVv"
+                    ]
+                }
+            },
+            {
+                "name": "control_data",
+                "info": {
+                    "x": 2798,
+                    "y": 1545,
+                    "z": 19,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 404
+                },
+                "inputs": {
+                    "action": "YerhSBsOms",
+                    "name": "xXHdSzG9MW",
+                    "value": "y7J8RDsaVv",
+                    "target": "9sRPlFHNMb"
+                },
+                "options": {
+                    "action_type": "add",
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "lv6TqQrCRE"
+                    ]
+                }
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 2800,
+                    "y": 1310,
+                    "z": 20,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "the queue list"
+                },
+                "outputs": {
+                    "text": [
+                        "xXHdSzG9MW",
+                        "8KnpIhvq1t",
+                        "l0AkYZUOQa"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_data",
+                "info": {
+                    "x": 1923,
+                    "y": 765,
+                    "z": 21,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 392
+                },
+                "inputs": {
+                    "action": "Mm8uPlJGnF",
+                    "name": "8KnpIhvq1t",
+                    "target": "WI03Osgg9W"
+                },
+                "options": {
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "yKRmZfkfHk"
+                    ],
+                    "value": [
+                        "duVfbwUzzw"
+                    ]
+                }
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 2539,
+                    "y": 538,
+                    "z": 24,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#16fa27"
+                },
+                "outputs": {
+                    "color": [
+                        "lC3GfjruNv"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 1148,
+                    "y": 1570,
+                    "z": 25,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "sQ4OabEkTt",
+                    "value1": "2kvCg0jTcE",
+                    "value2": "ZbLTXwN0Ze"
+                },
+                "options": {
+                    "comparison_type": "equal"
+                },
+                "outputs": {
+                    "action1": [
+                        "m4NKlpMH8l"
+                    ],
+                    "action2": [
+                        "I1kSsEqT5W"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 1722,
+                    "y": 1563,
+                    "z": 26,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "m4NKlpMH8l",
+                    "text1": "AJOg5JnfN8",
+                    "text2": "0qZOZepfMH",
+                    "text3": "33msXqO4c4"
+                },
+                "options": {
+                    "text": "1: ${text1} = 🎵***Current Track*** 🎵\n"
+                },
+                "outputs": {
+                    "action": [
+                        "4BNfz73Kad"
+                    ],
+                    "text": [
+                        "d6buxliLi6"
+                    ]
+                }
+            },
+            {
+                "name": "control_data",
+                "info": {
+                    "x": 2808,
+                    "y": 1816,
+                    "z": 27,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 404
+                },
+                "inputs": {
+                    "action": "Qrkxrsifek",
+                    "name": "l0AkYZUOQa",
+                    "value": "ZnBvuPAKbz",
+                    "target": "JgSsxAiQ4i"
+                },
+                "options": {
+                    "action_type": "add",
+                    "data_type": "server"
+                },
+                "outputs": {
+                    "action": [
+                        "9tzPX6BlvT"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 482,
+                    "y": 1084,
+                    "z": 28,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "lv6TqQrCRE",
+                    "action2": "9tzPX6BlvT"
+                },
+                "outputs": {
+                    "action": [
+                        "BWsnDEa6QL"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 721,
+                    "y": 1826,
+                    "z": 29,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "1"
+                },
+                "outputs": {
+                    "text": [
+                        "ZbLTXwN0Ze"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 1126,
+                    "y": 2265,
+                    "z": 30,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "OLTrxejNjd",
+                    "channel": "il4HUEGv3T",
+                    "embed": "4jApEdswsl",
+                    "attachment": "kgsRNFj5NE",
+                    "split_message": "sNqYLyaDDz"
+                },
+                "options": {
+                    "text": "track 1"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 2279,
+                    "y": 1817,
+                    "z": 31,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "PF0QQ4Pu0L",
+                    "list": "E9Nn4qxqQ0",
+                    "item": "VS72e6q6ck",
+                    "custom_position": "qEzZ7PQ1Aa"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "Qrkxrsifek"
+                    ],
+                    "list": [
+                        "ZnBvuPAKbz"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 1727,
+                    "y": 1805,
+                    "z": 32,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "I1kSsEqT5W",
+                    "text1": "r7Hp2atadH",
+                    "text2": "Wg5FEYru1y",
+                    "text3": "OJ0vVsEqzA"
+                },
+                "options": {
+                    "text": "${text2}: ${text1} \n"
+                },
+                "outputs": {
+                    "action": [
+                        "PF0QQ4Pu0L"
+                    ],
+                    "text": [
+                        "VS72e6q6ck"
+                    ]
+                }
+            },
+            {
+                "name": "add_reaction",
+                "info": {
+                    "x": 137,
+                    "y": 754,
+                    "z": 35,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 228
+                },
+                "inputs": {
+                    "action": "RZQiLkfGBz",
+                    "message": "94Ixsw62aY",
+                    "emoji": "lo1l3QwTNO"
+                },
+                "outputs": {
+                    "action": [
+                        "uqBLZyotAk"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 74,
+                    "y": 955,
+                    "z": 36,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "👌"
+                },
+                "outputs": {
+                    "text": [
+                        "lo1l3QwTNO"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 2019,
+                    "y": 424,
+                    "z": 37,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://media.discordapp.net/attachments/794764991521619988/803348565908652067/cat_vibe.gif?width=480&height=480"
+                },
+                "outputs": {
+                    "text": []
+                },
+                "inputs": {}
+            },
+            {
+                "name": "send_message_first",
+                "info": {
+                    "x": 2164,
+                    "y": 170,
+                    "z": 38,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "qjiu9rA2T0",
+                    "channel": "xYIFdFBzPl",
+                    "text": "062nOupvfX",
+                    "embed": "QoVCEKEkFG",
+                    "attachment": "SwgskJvhCP",
+                    "split_message": "3shNsZgRaN"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "merge_texts",
+                "info": {
+                    "x": 484,
+                    "y": 1293,
+                    "z": 39,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "JfoOQ5wL2N",
+                    "text1": "wiKNmb1eV8",
+                    "text2": "YaDNS2lMjB",
+                    "custom_position": "ZLmr5tNk8i"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "ORFlOg2Mek"
+                    ],
+                    "text": [
+                        "46B6SEbcib"
+                    ]
+                }
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 107,
+                    "y": 1346,
+                    "z": 40,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://www.youtube.com/watch?v="
+                },
+                "outputs": {
+                    "text": [
+                        "YaDNS2lMjB",
+                        "eXLqrUeQO4"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 1539,
+                    "y": 167,
+                    "z": 44,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "Gl1HM0GFB4",
+                    "value": "AyAPVAjjp0"
+                },
+                "outputs": {
+                    "action1": [
+                        "EctXQYxzf8"
+                    ],
+                    "action2": [
+                        "qjiu9rA2T0"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 1806,
+                    "y": 342,
+                    "z": 45,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Nothing in queue."
+                },
+                "outputs": {
+                    "text": [
+                        "062nOupvfX"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 2521,
+                    "y": 707,
+                    "z": 51,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "Hms709IcS9",
+                    "color": "lC3GfjruNv",
+                    "thumbnail": "u2c6DR5hOa",
+                    "author_icon": "pqoacMfONd",
+                    "author_name": "DnJ6NCLZsJ",
+                    "author_url": "cJ4SfHWSB7",
+                    "title": "AvDo7F2J9J",
+                    "url": "2QgXHSzHJ8",
+                    "description": "duVfbwUzzw",
+                    "image": "ZZ7Jip4NQB",
+                    "footer_icon": "cyHxkFjIBv",
+                    "footer_text": "dApzBWk1aU",
+                    "timestamp": "sHohuvUJ1s"
+                },
+                "outputs": {
+                    "action": [
+                        "ffp6zQrRyi"
+                    ],
+                    "message_embed": [
+                        "UAJGGNGY8V"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "delete_message",
+                "info": {
+                    "x": 2962,
+                    "y": 718,
+                    "z": 52,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "ffp6zQrRyi",
+                    "message": "HFwqHWt1jo",
+                    "timeout": "jD8Lxd18ZI",
+                    "reason": "cPHLB59AqI"
+                },
+                "outputs": {
+                    "action": [
+                        "eyR9YEaqm5"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 72,
+                    "y": 464,
+                    "z": 53,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "EctXQYxzf8",
+                    "channel": "Rta3cAIk9i",
+                    "embed": "GUXM3jYoME",
+                    "attachment": "4e0EPowE0r",
+                    "split_message": "BpKHmiy02N"
+                },
+                "options": {
+                    "text": "https://media.discordapp.net/attachments/794764991521619988/803366109406953573/list.gif"
+                },
+                "outputs": {
+                    "action": [
+                        "RZQiLkfGBz"
+                    ],
+                    "message": [
+                        "HFwqHWt1jo"
+                    ]
+                }
+            },
+            {
+                "name": "get_youtube_video_info",
+                "info": {
+                    "x": 3143,
+                    "y": 324,
+                    "z": 54,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 551
+                },
+                "inputs": {
+                    "action": "yylpiNK2TW",
+                    "search_value": "zseMmcREV4",
+                    "result_number": "vg41FGIW21"
+                },
+                "options": {
+                    "video_info": "6"
+                },
+                "outputs": {
+                    "action": [
+                        "Hms709IcS9"
+                    ],
+                    "result": [
+                        "u2c6DR5hOa"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list",
+                "info": {
+                    "x": 1975,
+                    "y": 549,
+                    "z": 55,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "yKRmZfkfHk",
+                    "list": "45QZT2UXxI",
+                    "custom_position": "G3YLT9LIqz"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "9gmGaQNhHY"
+                    ],
+                    "value": [
+                        "oIsgtgT2Ka"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts",
+                "info": {
+                    "x": 2531,
+                    "y": 204,
+                    "z": 56,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "9gmGaQNhHY",
+                    "text1": "oIsgtgT2Ka",
+                    "text2": "eXLqrUeQO4",
+                    "custom_position": "fllvhKmsIT"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "yylpiNK2TW"
+                    ],
+                    "text": [
+                        "zseMmcREV4"
+                    ]
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "YT stop",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "control_bot_audio",
+                "info": {
+                    "x": 2355,
+                    "y": 533,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 386
+                },
+                "inputs": {
+                    "action": "tnyz9Lvssc",
+                    "server": "ekEubWlaAI"
+                },
+                "options": {
+                    "audio_action_type": "end"
+                },
+                "outputs": {
+                    "action": [
+                        "RMhESG5ZoJ"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 821,
+                    "y": 65,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "8PKx8PFakC",
+                    "message": "I4u9aJOWTp"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "3BvQRpmUM3"
+                    ],
+                    "result": [
+                        "ekEubWlaAI",
+                        "crbYJS9t9F"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 824,
+                    "y": 204,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "3BvQRpmUM3",
+                    "message": "ML6Q3HR2hZ"
+                },
+                "options": {
+                    "message_info": "16"
+                },
+                "outputs": {
+                    "action": [
+                        "aXFrbO7MGU"
+                    ],
+                    "result": [
+                        "VMTbYfCaqW"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 827,
+                    "y": 336,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "aXFrbO7MGU",
+                    "member": "VMTbYfCaqW"
+                },
+                "options": {
+                    "member_info": "28"
+                },
+                "outputs": {
+                    "action": [
+                        "QgPCkqcjeo"
+                    ],
+                    "result": [
+                        "3x5m5JUBRn",
+                        "6LPzF2rh0d"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 1620,
+                    "y": 359,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "QgPCkqcjeo",
+                    "value": "3x5m5JUBRn"
+                },
+                "outputs": {
+                    "action1": [
+                        "5iuVdIfVnJ"
+                    ],
+                    "action2": [
+                        "giKoVYqzsT"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 1374,
+                    "y": 564,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "giKoVYqzsT",
+                    "channel": "643POHR9RN",
+                    "embed": "VCLn2APZqR",
+                    "attachment": "8YgY9J0cSI",
+                    "split_message": "mdhJJORnj2"
+                },
+                "options": {
+                    "text": "You're not even in a voice channel."
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 2807,
+                    "y": 494,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "RMhESG5ZoJ",
+                    "channel": "S6D57ADytx",
+                    "embed": "TUOAv8eQdQ",
+                    "attachment": "feSmnAjRf9",
+                    "split_message": "Dlf5XvjX2u"
+                },
+                "options": {
+                    "text": "Stopped"
+                },
+                "outputs": {
+                    "action": [
+                        "LVC0qOl5Mi"
+                    ],
+                    "message": []
+                }
+            },
+            {
+                "name": "add_reaction",
+                "info": {
+                    "x": 2843,
+                    "y": 770,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 228
+                },
+                "inputs": {
+                    "action": "LVC0qOl5Mi",
+                    "message": "UId3HHN0c5",
+                    "emoji": "pZjAKKzbqz"
+                },
+                "outputs": {
+                    "action": [
+                        "xwrFS3jnlo"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text_first",
+                "info": {
+                    "x": 2352,
+                    "y": 842,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "👌"
+                },
+                "outputs": {
+                    "text": [
+                        "pZjAKKzbqz"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_bot_audio_info",
+                "info": {
+                    "x": 1854,
+                    "y": 174,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 563
+                },
+                "inputs": {
+                    "action": "5iuVdIfVnJ",
+                    "server": "crbYJS9t9F"
+                },
+                "options": {
+                    "audio_info": "14"
+                },
+                "outputs": {
+                    "action": [
+                        "yhoO0KqzSm"
+                    ],
+                    "result": [
+                        "U8HJA1PILv"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 1971,
+                    "y": 321,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "yhoO0KqzSm",
+                    "value1": "U8HJA1PILv",
+                    "value2": "OJF3XSTsx9"
+                },
+                "options": {
+                    "comparison_type": "equal"
+                },
+                "outputs": {
+                    "action1": [
+                        "Iri8J5l1Jy"
+                    ],
+                    "action2": [
+                        "tnyz9Lvssc"
+                    ]
+                }
+            },
+            {
+                "name": "boolean",
+                "info": {
+                    "x": 1959,
+                    "y": 503,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 268
+                },
+                "options": {
+                    "boolean_type": "true"
+                },
+                "outputs": {
+                    "boolean": [
+                        "OJF3XSTsx9"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "send_message_with_text",
+                "info": {
+                    "x": 2500,
+                    "y": 173,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 206,
+                    "width": 487
+                },
+                "inputs": {
+                    "action": "Iri8J5l1Jy",
+                    "channel": "puwb8Ez1qV",
+                    "embed": "ZGurDKZDrd",
+                    "attachment": "28oecY8nGY",
+                    "split_message": "kCYBFhElCk"
+                },
+                "options": {
+                    "text": "Nothing is playing..."
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "leave_voice_channel",
+                "info": {
+                    "x": 3150,
+                    "y": 776,
+                    "z": 15,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 266
+                },
+                "inputs": {
+                    "action": "xwrFS3jnlo",
+                    "voice_channel": "6LPzF2rh0d"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            },
+            {
+                "name": "command_event_alias",
+                "info": {
+                    "x": 8,
+                    "y": 23,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 414,
+                    "width": 682
+                },
+                "inputs": {
+                    "alias_path": "wThyTyDt5j"
+                },
+                "options": {
+                    "custom_prefix": "",
+                    "custom_separator": ",",
+                    "alias": "stop, dc, leave, disconnect",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no"
+                },
+                "outputs": {
+                    "action1": [
+                        "8PKx8PFakC"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "UId3HHN0c5",
+                        "I4u9aJOWTp",
+                        "ML6Q3HR2hZ"
+                    ],
+                    "server": [],
+                    "channel": [
+                        "643POHR9RN",
+                        "puwb8Ez1qV",
+                        "S6D57ADytx"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "YT play",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 810,
+                    "y": 91,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "h5Itv69Ywv",
+                    "message": "akHzInsaLf"
+                },
+                "options": {
+                    "message_info": "16"
+                },
+                "outputs": {
+                    "action": [
+                        "t2a6jwMNrk"
+                    ],
+                    "result": [
+                        "2ovCpnohxY"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 1525,
+                    "y": 116,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "t2a6jwMNrk",
+                    "member": "2ovCpnohxY"
+                },
+                "options": {
+                    "member_info": "28"
+                },
+                "outputs": {
+                    "action": [
+                        "UFnaaYjDgh"
+                    ],
+                    "result": [
+                        "CmkAWCQbCV",
+                        "EnZKDrUYnS"
+                    ]
+                }
+            },
+            {
+                "name": "join_voice_channel",
+                "info": {
+                    "x": 2672,
+                    "y": 159,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 134,
+                    "width": 330
+                },
+                "inputs": {
+                    "action": "MqSfIlvc2m",
+                    "voice_channel": "CmkAWCQbCV"
+                },
+                "outputs": {
+                    "action": [
+                        "fA0Aqcr3ru"
+                    ],
+                    "voice_connection": []
+                },
+                "options": {}
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 780,
+                    "y": 910,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "fA0Aqcr3ru",
+                    "message": "DS6RHm2nh3"
+                },
+                "options": {
+                    "message_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "abHiC4LTpb"
+                    ],
+                    "result": [
+                        "z0XZnuHRo6",
+                        "8XvJ8YLAoI"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 362,
+                    "y": 525,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://www.youtube.com/watch?v=eWPYxw_yqW4"
+                },
+                "outputs": {
+                    "text": []
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_message_arguments",
+                "info": {
+                    "x": 1501,
+                    "y": 1068,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 238,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "abHiC4LTpb",
+                    "message": "XGkKitUzqy",
+                    "argument_number": "bDyF267XgO",
+                    "custom_argument_separator": "UQ56wq2hWN"
+                },
+                "options": {
+                    "argument_type": "multiple_arguments"
+                },
+                "outputs": {
+                    "action": [
+                        "zMJRlccX9j"
+                    ],
+                    "result": [
+                        "g6C82GNCpH"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 962,
+                    "y": 1130,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "1"
+                },
+                "outputs": {
+                    "number": [
+                        "bDyF267XgO"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_youtube_video_info",
+                "info": {
+                    "x": 2271,
+                    "y": 860,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 551
+                },
+                "inputs": {
+                    "action": "zMJRlccX9j",
+                    "search_value": "g6C82GNCpH",
+                    "result_number": "nx7KeCgMKX"
+                },
+                "options": {
+                    "video_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "KTHX6pvGgP"
+                    ],
+                    "result": [
+                        "ooaVmPhqA3",
+                        "eG9JeXW1wM"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 3035,
+                    "y": 1165,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 215,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "zSWd7OmL1T",
+                    "text1": "ooaVmPhqA3",
+                    "text2": "6KNbt0fuJR",
+                    "text3": "RSlngeR5i0"
+                },
+                "options": {
+                    "text": "**Playing:** ${text1}\n\n**Desc:** ${text3}\n\n**Link:** ${text2}\n"
+                },
+                "outputs": {
+                    "action": [
+                        "BUKCZIgDnw"
+                    ],
+                    "text": [
+                        "uOWbKC00QV"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 2355,
+                    "y": 85,
+                    "z": 18,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "UFnaaYjDgh",
+                    "value": "EnZKDrUYnS"
+                },
+                "outputs": {
+                    "action1": [
+                        "MqSfIlvc2m"
+                    ],
+                    "action2": [
+                        "UTKQOrweOj"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 5565,
+                    "y": 1350,
+                    "z": 20,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "100"
+                },
+                "outputs": {
+                    "number": [
+                        "5Ekv5ezXxk"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "add_reaction",
+                "info": {
+                    "x": 5429,
+                    "y": 1031,
+                    "z": 21,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 228
+                },
+                "inputs": {
+                    "action": "svrBG24Vud",
+                    "message": "RaNx7BHX9T",
+                    "emoji": "g7J02z7ANH"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            },
+            {
+                "name": "command_event",
+                "info": {
+                    "x": 0,
+                    "y": 151,
+                    "z": 23,
+                    "color": "#5a5a5a",
+                    "height": 267,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_name": "x3Lhj0Y4u9",
+                    "custom_prefix": "CXaHRYneW3",
+                    "command_slowmode": "AkfkspAPnb"
+                },
+                "options": {
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "h5Itv69Ywv"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "DS6RHm2nh3",
+                        "XGkKitUzqy",
+                        "RaNx7BHX9T",
+                        "akHzInsaLf"
+                    ],
+                    "channel": [
+                        "9TEZ7NiyEb",
+                        "9tqhFOXayl"
+                    ],
+                    "user": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 24,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "play"
+                },
+                "outputs": {
+                    "text": [
+                        "x3Lhj0Y4u9"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 3691,
+                    "y": 1088,
+                    "z": 25,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "z28dkMfQ3H",
+                    "channel": "9TEZ7NiyEb",
+                    "text": "e2OEZhw4T2",
+                    "embed": "tLZszFDlQH",
+                    "attachment": "poZmBiYtg3",
+                    "split_message": "q7ZilQTHDm"
+                },
+                "outputs": {
+                    "action": [
+                        "XyrbM11sDH"
+                    ],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5698,
+                    "y": 1060,
+                    "z": 26,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "👌"
+                },
+                "outputs": {
+                    "text": [
+                        "g7J02z7ANH"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 2302,
+                    "y": 243,
+                    "z": 27,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "UTKQOrweOj",
+                    "channel": "9tqhFOXayl",
+                    "text": "Ry1iuW07fj",
+                    "embed": "YvprgfAzlL",
+                    "attachment": "YlAfKI6dD8",
+                    "split_message": "ACRY41C7dn"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1750,
+                    "y": 297,
+                    "z": 28,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 414
+                },
+                "options": {
+                    "text": "Join a voice channel first..."
+                },
+                "outputs": {
+                    "text": [
+                        "Ry1iuW07fj"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "play_youtube_video",
+                "info": {
+                    "x": 4178,
+                    "y": 878,
+                    "z": 29,
+                    "color": "#5a5a5a",
+                    "height": 310,
+                    "width": 581
+                },
+                "inputs": {
+                    "action": "XyrbM11sDH",
+                    "server": "z0XZnuHRo6",
+                    "video_id": "VYZGZD2XUx",
+                    "seek": "zzox3ibihz",
+                    "volume": "EkiPOR61KG",
+                    "bitrate": "55j0cPjy3o",
+                    "custom_position": "jja2v3sVbd"
+                },
+                "options": {
+                    "audio_behavior_type": "add_last",
+                    "audio_quality_type": "highestaudio"
+                },
+                "outputs": {
+                    "action": [
+                        "svrBG24Vud",
+                        "g2UOH8wSlc"
+                    ]
+                }
+            },
+            {
+                "name": "set_audio_volume",
+                "info": {
+                    "x": 5973,
+                    "y": 1277,
+                    "z": 30,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 219
+                },
+                "inputs": {
+                    "action": "7tmeHwjkof",
+                    "server": "8XvJ8YLAoI",
+                    "volume": "5Ekv5ezXxk"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            },
+            {
+                "name": "wait",
+                "info": {
+                    "x": 5594,
+                    "y": 1219,
+                    "z": 31,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 350
+                },
+                "inputs": {
+                    "action": "g2UOH8wSlc",
+                    "time": "mXC0rUBoMU"
+                },
+                "options": {
+                    "time_type": "seconds"
+                },
+                "outputs": {
+                    "action": [
+                        "7tmeHwjkof"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 5231,
+                    "y": 1249,
+                    "z": 32,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "1"
+                },
+                "outputs": {
+                    "number": [
+                        "mXC0rUBoMU"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 3538,
+                    "y": 1524,
+                    "z": 36,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "BUKCZIgDnw",
+                    "color": "wyPzzuY77C",
+                    "thumbnail": "haQ5NYJ2S9",
+                    "author_icon": "RP6yzoPto2",
+                    "author_name": "hDI1n4VdL9",
+                    "author_url": "NN91MVmaJB",
+                    "title": "2iGtOoOPQM",
+                    "url": "laeqXHEk8l",
+                    "description": "uOWbKC00QV",
+                    "image": "1BYD3BduKM",
+                    "footer_icon": "ojfL26NgF0",
+                    "footer_text": "my3GImOm76",
+                    "timestamp": "smGFcvwTwn"
+                },
+                "outputs": {
+                    "action": [
+                        "z28dkMfQ3H"
+                    ],
+                    "message_embed": [
+                        "tLZszFDlQH"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 2680,
+                    "y": 1702,
+                    "z": 37,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#00ffff"
+                },
+                "outputs": {
+                    "color": [
+                        "wyPzzuY77C"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "text_3x",
+                "info": {
+                    "x": 2576,
+                    "y": 1885,
+                    "z": 38,
+                    "color": "#5a5a5a",
+                    "height": 252,
+                    "width": 318
+                },
+                "options": {
+                    "text1": "https://dinoman.dev/evolands.png",
+                    "text2": "EvoLands Music",
+                    "text3": "EvoLands Music - Designed by DarkerMatter"
+                },
+                "outputs": {
+                    "text1": [
+                        "RP6yzoPto2"
+                    ],
+                    "text2": [
+                        "hDI1n4VdL9"
+                    ],
+                    "text3": [
+                        "my3GImOm76"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_youtube_video_infos",
+                "info": {
+                    "x": 2321,
+                    "y": 1082,
+                    "z": 39,
+                    "color": "#5a5a5a",
+                    "height": 382,
+                    "width": 320
+                },
+                "inputs": {
+                    "action": "KTHX6pvGgP",
+                    "search_value": "eG9JeXW1wM"
+                },
+                "outputs": {
+                    "action": [
+                        "zSWd7OmL1T"
+                    ],
+                    "title": [],
+                    "description": [
+                        "RSlngeR5i0"
+                    ],
+                    "duration": [],
+                    "views": [],
+                    "thumbnail": [
+                        "1BYD3BduKM"
+                    ],
+                    "url": [
+                        "6KNbt0fuJR",
+                        "VYZGZD2XUx"
+                    ],
+                    "channel": [],
+                    "channelurl": [],
+                    "channelverified": []
+                },
+                "options": {}
+            }
+        ],
+        "notes": [
+            {
+                "title": "Join Voice Channel",
+                "description": "",
+                "color": "#40ff00",
+                "x": 775,
+                "y": 14,
+                "z": 1,
+                "width": 2252,
+                "height": 473
+            },
+            {
+                "title": "Search YT Video",
+                "description": "",
+                "color": "#00ffea",
+                "x": 689,
+                "y": 787,
+                "z": 2,
+                "width": 1437,
+                "height": 616
+            },
+            {
+                "title": "Get YT Video info",
+                "description": "",
+                "color": "#0d00ff",
+                "x": 2134,
+                "y": 784,
+                "z": 3,
+                "width": 777,
+                "height": 879
+            },
+            {
+                "title": "Send YT Info",
+                "description": "",
+                "color": "#ff8400",
+                "x": 3012,
+                "y": 851,
+                "z": 4,
+                "width": 1008,
+                "height": 626
+            },
+            {
+                "title": "Play the video",
+                "description": "",
+                "color": "#ff0000",
+                "x": 4091,
+                "y": 792,
+                "z": 5,
+                "width": 769,
+                "height": 459
+            },
+            {
+                "title": "Extra stuffs you dont need",
+                "description": "",
+                "color": "#04c6fb",
+                "x": 5066,
+                "y": 969,
+                "z": 6,
+                "width": 1179,
+                "height": 546
+            }
+        ]
+    },
+    {
+        "info": {
             "title": "General Help",
             "description": "General Help Commands:\nUser \nAdmin",
             "thumbnail": ""
@@ -91,13 +3159,13 @@
                 "options": {
                     "text1": "https://dinoman.dev/evolands.png",
                     "text2": "EvoLands Music",
-                    "text3": "Evolands Music Help Menu",
+                    "text3": "EvoLands Music Help Menu",
                     "text4": "Here you can find basic commands for EvoLands Music.",
-                    "text5": "EvoLands Music - Designed by DarkerMatter#0001",
-                    "text6": "!Play [url]",
-                    "text7": "Plays given youtube video.",
+                    "text5": "EvoLands Music - Designed by DarkerMatter",
+                    "text6": "!Play [title/url]",
+                    "text7": "Plays given YouTube video",
                     "text8": "!Help",
-                    "text9": "Displays this Menu."
+                    "text9": "Displays this menu"
                 },
                 "outputs": {
                     "text1": [
@@ -163,8 +3231,8 @@
             {
                 "name": "add_message_embed_field",
                 "info": {
-                    "x": 392,
-                    "y": 886,
+                    "x": 399,
+                    "y": 893,
                     "z": 5,
                     "color": "#5a5a5a",
                     "height": 279,
@@ -183,18 +3251,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "e9UD0jjcas"
+                        "fZlzvTJXJb"
                     ],
                     "message_embed": [
-                        "LjGXpJ7H18"
+                        "qNdlQFRtxl"
                     ]
                 }
             },
             {
                 "name": "send_message_first",
                 "info": {
-                    "x": 937,
-                    "y": 606,
+                    "x": 1065,
+                    "y": 614,
                     "z": 6,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -233,6 +3301,176 @@
                     ]
                 },
                 "inputs": {}
+            },
+            {
+                "name": "text_9x",
+                "info": {
+                    "x": 6,
+                    "y": 1144,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 654,
+                    "width": 318
+                },
+                "options": {
+                    "text1": "!Queue",
+                    "text2": "Displays current songs in the queue",
+                    "text3": "!Skip",
+                    "text4": "Skips current song",
+                    "text5": "!Dc",
+                    "text6": "Disconnects bot from current channel",
+                    "text7": "!Remove [track #]",
+                    "text8": "Removes specified song from queue",
+                    "text9": ""
+                },
+                "outputs": {
+                    "text1": [
+                        "IZukbEjkJS"
+                    ],
+                    "text2": [
+                        "rnpGk8Qd81"
+                    ],
+                    "text3": [
+                        "yxHHKndzGL"
+                    ],
+                    "text4": [
+                        "49wGJYxYVL"
+                    ],
+                    "text5": [
+                        "2RTvDQtSXP"
+                    ],
+                    "text6": [
+                        "tldq83KiQT"
+                    ],
+                    "text7": [
+                        "HXz7SZDzpS"
+                    ],
+                    "text8": [
+                        "cT0joCAFv2"
+                    ],
+                    "text9": []
+                },
+                "inputs": {}
+            },
+            {
+                "name": "add_message_embed_field",
+                "info": {
+                    "x": 407,
+                    "y": 1184,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 279,
+                    "width": 507
+                },
+                "inputs": {
+                    "action": "fZlzvTJXJb",
+                    "message_embed": "qNdlQFRtxl",
+                    "field_name": "IZukbEjkJS",
+                    "field_value": "rnpGk8Qd81",
+                    "field_inline": "wgdoXa1u8T",
+                    "custom_position": "Tmx8Knx2VF"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "4hn9DTpVXN"
+                    ],
+                    "message_embed": [
+                        "w0Awecg9vy"
+                    ]
+                }
+            },
+            {
+                "name": "add_message_embed_field",
+                "info": {
+                    "x": 406,
+                    "y": 1491,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 279,
+                    "width": 507
+                },
+                "inputs": {
+                    "action": "4hn9DTpVXN",
+                    "message_embed": "w0Awecg9vy",
+                    "field_name": "yxHHKndzGL",
+                    "field_value": "49wGJYxYVL",
+                    "field_inline": "EEcrWZTSRX",
+                    "custom_position": "0J0UycPlw8"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "7zPfO2P4MO"
+                    ],
+                    "message_embed": [
+                        "iEuJwxxhxZ"
+                    ]
+                }
+            },
+            {
+                "name": "add_message_embed_field",
+                "info": {
+                    "x": 957,
+                    "y": 895,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 279,
+                    "width": 507
+                },
+                "inputs": {
+                    "action": "7zPfO2P4MO",
+                    "message_embed": "iEuJwxxhxZ",
+                    "field_name": "2RTvDQtSXP",
+                    "field_value": "tldq83KiQT",
+                    "field_inline": "BpcR4t1hPx",
+                    "custom_position": "FVTGnA9BWt"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "AtrE4E3GRS"
+                    ],
+                    "message_embed": [
+                        "SIJguIAxeC"
+                    ]
+                }
+            },
+            {
+                "name": "add_message_embed_field",
+                "info": {
+                    "x": 968,
+                    "y": 1192,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 279,
+                    "width": 507
+                },
+                "inputs": {
+                    "action": "AtrE4E3GRS",
+                    "message_embed": "SIJguIAxeC",
+                    "field_name": "HXz7SZDzpS",
+                    "field_value": "cT0joCAFv2",
+                    "field_inline": "xNum9807XW",
+                    "custom_position": "Fbz9jfVxd1"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "e9UD0jjcas"
+                    ],
+                    "message_embed": [
+                        "LjGXpJ7H18"
+                    ]
+                }
             }
         ],
         "notes": [
@@ -243,8 +3481,8 @@
                 "x": 0,
                 "y": 0,
                 "z": 1,
-                "width": 1806,
-                "height": 1193
+                "width": 2165,
+                "height": 1840
             }
         ]
     },
@@ -476,1066 +3714,5 @@
                 "height": 501
             }
         ]
-    },
-    {
-        "info": {
-            "title": "Music Commands",
-            "description": "Music Stuff AIR",
-            "thumbnail": ""
-        },
-        "blocks": [
-            {
-                "name": "play_youtube_video",
-                "info": {
-                    "x": 1490,
-                    "y": 527,
-                    "z": 3,
-                    "color": "#5a5a5a",
-                    "height": 310,
-                    "width": 581
-                },
-                "inputs": {
-                    "action": "8EsEFWVy7u",
-                    "server": "saszLykkiQ",
-                    "video_id": "mFigmQVbHy",
-                    "seek": "dtv4sTTRY5",
-                    "volume": "BzydQf3On5",
-                    "bitrate": "TSQzROyhDW",
-                    "custom_position": "koTd06sTxK"
-                },
-                "options": {
-                    "audio_behavior_type": "add_last",
-                    "audio_quality_type": "highestaudio"
-                },
-                "outputs": {
-                    "action": [
-                        "ReRZJRcI1Z"
-                    ]
-                }
-            },
-            {
-                "name": "get_message_arguments",
-                "info": {
-                    "x": 648,
-                    "y": 518,
-                    "z": 4,
-                    "color": "#5a5a5a",
-                    "height": 238,
-                    "width": 457
-                },
-                "inputs": {
-                    "action": "tDytKiT7Fc",
-                    "message": "WlRq6gauOk",
-                    "argument_number": "yKqTSsuPpf",
-                    "custom_argument_separator": "hnnZlsthcG"
-                },
-                "options": {
-                    "argument_type": "one_argument"
-                },
-                "outputs": {
-                    "action": [
-                        "tn0vnXvjUs"
-                    ],
-                    "result": [
-                        "BgWDlGCepS",
-                        "psdwbaeX3I"
-                    ]
-                }
-            },
-            {
-                "name": "join_voice_channel",
-                "info": {
-                    "x": 1139,
-                    "y": 510,
-                    "z": 5,
-                    "color": "#5a5a5a",
-                    "height": 134,
-                    "width": 330
-                },
-                "inputs": {
-                    "action": "sk8dNbu948",
-                    "voice_channel": "mn1OFFBLvP"
-                },
-                "outputs": {
-                    "action": [
-                        "8EsEFWVy7u"
-                    ],
-                    "voice_connection": []
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 269,
-                    "y": 766,
-                    "z": 6,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "1"
-                },
-                "outputs": {
-                    "number": [
-                        "R4MS7YuKiB",
-                        "yKqTSsuPpf"
-                    ]
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 26,
-                    "y": 63,
-                    "z": 10,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "RzNtTxipDZ"
-                },
-                "options": {
-                    "command_name": "play",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "yes",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "Z82JFgzOfu"
-                    ],
-                    "action2": [],
-                    "message": [
-                        "WlRq6gauOk",
-                        "R0nG28R3fE"
-                    ],
-                    "server": [
-                        "saszLykkiQ"
-                    ],
-                    "channel": [
-                        "xOxoTVxZ4s",
-                        "m8TENkauP0"
-                    ],
-                    "vc": [
-                        "mn1OFFBLvP"
-                    ],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "check_message_arguments",
-                "info": {
-                    "x": 30,
-                    "y": 528,
-                    "z": 17,
-                    "color": "#5a5a5a",
-                    "height": 217,
-                    "width": 590
-                },
-                "inputs": {
-                    "action": "Z82JFgzOfu",
-                    "message": "R0nG28R3fE",
-                    "number": "R4MS7YuKiB",
-                    "custom_argument_separator": "i1GNLom8c8"
-                },
-                "options": {
-                    "arguments_type": "arguments",
-                    "comparison_type": "equal"
-                },
-                "outputs": {
-                    "action1": [
-                        "tDytKiT7Fc"
-                    ],
-                    "action2": [
-                        "yr1SxSWxZy"
-                    ]
-                }
-            },
-            {
-                "name": "create_embed_message",
-                "info": {
-                    "x": 663,
-                    "y": 776,
-                    "z": 18,
-                    "color": "#5a5a5a",
-                    "height": 517,
-                    "width": 340
-                },
-                "inputs": {
-                    "action": "yr1SxSWxZy",
-                    "color": "GKG9mAMdl0",
-                    "thumbnail": "PdZKteKHjL",
-                    "author_icon": "snqDJyB7jD",
-                    "author_name": "X6p3cclvGP",
-                    "author_url": "xZuFhbOK07",
-                    "title": "SBcFMgHN8z",
-                    "url": "XQ5WxqZ0ZK",
-                    "description": "DWcvOhMH17",
-                    "image": "XZmCJMw9J8",
-                    "footer_icon": "VgNqcidnEP",
-                    "footer_text": "GdrqLABOsP",
-                    "timestamp": "WX1B4jzUsp"
-                },
-                "outputs": {
-                    "action": [
-                        "7uTuEaMU8s"
-                    ],
-                    "message_embed": [
-                        "zn6dJaNwHP"
-                    ]
-                }
-            },
-            {
-                "name": "send_message",
-                "info": {
-                    "x": 1134,
-                    "y": 675,
-                    "z": 19,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "fZXh0fjnov",
-                    "channel": "xOxoTVxZ4s",
-                    "text": "WM9Srajb1Y",
-                    "embed": "6kTGsoKcDH",
-                    "attachment": "ejp6o0bJJf",
-                    "split_message": "GNGiULQCgC"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 331,
-                    "y": 890,
-                    "z": 20,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "https://dinoman.dev/evolands.png"
-                },
-                "outputs": {
-                    "text": [
-                        "snqDJyB7jD",
-                        "hjYCbKsfzf"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 12,
-                    "y": 890,
-                    "z": 21,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "EvoLands Music"
-                },
-                "outputs": {
-                    "text": [
-                        "X6p3cclvGP",
-                        "g22XB74cZl"
-                    ]
-                }
-            },
-            {
-                "name": "color",
-                "info": {
-                    "x": 45,
-                    "y": 771,
-                    "z": 22,
-                    "color": "#5a5a5a",
-                    "height": 105,
-                    "width": 193
-                },
-                "options": {
-                    "color": "#97e8d6"
-                },
-                "outputs": {
-                    "color": [
-                        "GKG9mAMdl0",
-                        "OyNYXx3HbN"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 331,
-                    "y": 1024,
-                    "z": 23,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Incorrect Command Ussage"
-                },
-                "outputs": {
-                    "text": [
-                        "SBcFMgHN8z"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 9,
-                    "y": 1027,
-                    "z": 24,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Please run the Play command like so:"
-                },
-                "outputs": {
-                    "text": [
-                        "DWcvOhMH17"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 337,
-                    "y": 1163,
-                    "z": 25,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Evolands Music - Designed by DarkerMatter#0001"
-                },
-                "outputs": {
-                    "text": [
-                        "GdrqLABOsP",
-                        "ys3sJcvFEB"
-                    ]
-                }
-            },
-            {
-                "name": "create_embed_message",
-                "info": {
-                    "x": 1132,
-                    "y": 923,
-                    "z": 30,
-                    "color": "#5a5a5a",
-                    "height": 517,
-                    "width": 340
-                },
-                "inputs": {
-                    "action": "8HjTxQ0cLx",
-                    "color": "OyNYXx3HbN",
-                    "thumbnail": "Q4R7d6aLhd",
-                    "author_icon": "hjYCbKsfzf",
-                    "author_name": "g22XB74cZl",
-                    "author_url": "OR4eMtJ9cF",
-                    "title": "mSm4wG0ZF2",
-                    "url": "VAebF5C4eU",
-                    "description": "L6tAm9lmCN",
-                    "image": "MPzJ32z5O9",
-                    "footer_icon": "szOk5EDeYi",
-                    "footer_text": "ys3sJcvFEB",
-                    "timestamp": "1W4z3ykDYQ"
-                },
-                "outputs": {
-                    "action": [
-                        "05qIUNgdx3"
-                    ],
-                    "message_embed": [
-                        "WPMvjYYqhv"
-                    ]
-                }
-            },
-            {
-                "name": "add_message_embed_field",
-                "info": {
-                    "x": 2139,
-                    "y": 73,
-                    "z": 31,
-                    "color": "#5a5a5a",
-                    "height": 279,
-                    "width": 507
-                },
-                "inputs": {
-                    "action": "05qIUNgdx3",
-                    "message_embed": "WPMvjYYqhv",
-                    "field_name": "9A6bnDWz82",
-                    "field_value": "9WOb4CE5mu",
-                    "field_inline": "OmL2v6qUZb",
-                    "custom_position": "jB41vN8NL6"
-                },
-                "options": {
-                    "position_type": "last"
-                },
-                "outputs": {
-                    "action": [
-                        "4ekg5cbhaW"
-                    ],
-                    "message_embed": [
-                        "JawIo3jtlY"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1592,
-                    "y": 136,
-                    "z": 32,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Playing:"
-                },
-                "outputs": {
-                    "text": [
-                        "9A6bnDWz82"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1586,
-                    "y": 291,
-                    "z": 35,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Link:"
-                },
-                "outputs": {
-                    "text": [
-                        "voXV6o4wvV"
-                    ]
-                }
-            },
-            {
-                "name": "add_message_embed_field",
-                "info": {
-                    "x": 2136,
-                    "y": 369,
-                    "z": 37,
-                    "color": "#5a5a5a",
-                    "height": 279,
-                    "width": 507
-                },
-                "inputs": {
-                    "action": "4ekg5cbhaW",
-                    "message_embed": "JawIo3jtlY",
-                    "field_name": "voXV6o4wvV",
-                    "field_value": "YwqSvSYFTt",
-                    "field_inline": "RvG1G5etUL",
-                    "custom_position": "yqQgo0Eezj"
-                },
-                "options": {
-                    "position_type": "last"
-                },
-                "outputs": {
-                    "action": [
-                        "goHsSppOSF"
-                    ],
-                    "message_embed": [
-                        "VUcwITqhPX"
-                    ]
-                }
-            },
-            {
-                "name": "send_message",
-                "info": {
-                    "x": 2134,
-                    "y": 669,
-                    "z": 39,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "goHsSppOSF",
-                    "channel": "m8TENkauP0",
-                    "text": "BadOmWoFA1",
-                    "embed": "VUcwITqhPX",
-                    "attachment": "dpMnXUO3cQ",
-                    "split_message": "6HmFCRhWZ0"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "get_youtube_video_infos",
-                "info": {
-                    "x": 1501,
-                    "y": 851,
-                    "z": 40,
-                    "color": "#5a5a5a",
-                    "height": 382,
-                    "width": 320
-                },
-                "inputs": {
-                    "action": "ReRZJRcI1Z",
-                    "search_value": "BgWDlGCepS"
-                },
-                "outputs": {
-                    "action": [
-                        "8HjTxQ0cLx"
-                    ],
-                    "title": [
-                        "9WOb4CE5mu"
-                    ],
-                    "description": [],
-                    "duration": [],
-                    "views": [],
-                    "thumbnail": [
-                        "MPzJ32z5O9"
-                    ],
-                    "url": [
-                        "YwqSvSYFTt"
-                    ],
-                    "channel": [],
-                    "channelurl": [],
-                    "channelverified": []
-                }
-            },
-            {
-                "name": "add_message_embed_field",
-                "info": {
-                    "x": 495,
-                    "y": 1311,
-                    "z": 41,
-                    "color": "#5a5a5a",
-                    "height": 279,
-                    "width": 507
-                },
-                "inputs": {
-                    "action": "7uTuEaMU8s",
-                    "message_embed": "zn6dJaNwHP",
-                    "field_name": "hoB2OcLyHW",
-                    "field_value": "AQ8ZWk0rzQ",
-                    "field_inline": "srWm8iFXVa",
-                    "custom_position": "rGLHZo121K"
-                },
-                "options": {
-                    "position_type": "last"
-                },
-                "outputs": {
-                    "action": [
-                        "fZXh0fjnov"
-                    ],
-                    "message_embed": [
-                        "6kTGsoKcDH"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 9,
-                    "y": 1169,
-                    "z": 42,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "!Play [url]"
-                },
-                "outputs": {
-                    "text": [
-                        "hoB2OcLyHW"
-                    ]
-                }
-            },
-            {
-                "name": "leave_voice_channel",
-                "info": {
-                    "x": 1253,
-                    "y": 1740,
-                    "z": 44,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 266
-                },
-                "inputs": {
-                    "action": "ppGR2RIRdZ",
-                    "voice_channel": "CyIE6RE5tp"
-                },
-                "outputs": {
-                    "action": [
-                        "LkZFvYhAPN"
-                    ]
-                }
-            },
-            {
-                "name": "command_event_alias",
-                "info": {
-                    "x": 26,
-                    "y": 1610,
-                    "z": 45,
-                    "color": "#5a5a5a",
-                    "height": 414,
-                    "width": 682
-                },
-                "inputs": {
-                    "alias_path": "6xgtzcL9BQ"
-                },
-                "options": {
-                    "custom_prefix": "",
-                    "custom_separator": "",
-                    "alias": "dc, disconnect, stop",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "yes"
-                },
-                "outputs": {
-                    "action1": [
-                        "nIa1s0vRyp",
-                        "1XLwPSqBnW"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [
-                        "BQdLPTb5Xw",
-                        "OFiQgZE5fb"
-                    ],
-                    "channel": [
-                        "zrBHJB1mrK"
-                    ],
-                    "vc": [
-                        "CyIE6RE5tp"
-                    ],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "control_bot_audio",
-                "info": {
-                    "x": 820,
-                    "y": 1728,
-                    "z": 46,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 386
-                },
-                "inputs": {
-                    "action": "nIa1s0vRyp",
-                    "server": "BQdLPTb5Xw"
-                },
-                "options": {
-                    "audio_action_type": "end"
-                },
-                "outputs": {
-                    "action": [
-                        "ppGR2RIRdZ"
-                    ]
-                }
-            },
-            {
-                "name": "send_message",
-                "info": {
-                    "x": 1548,
-                    "y": 1750,
-                    "z": 47,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "LkZFvYhAPN",
-                    "channel": "zrBHJB1mrK",
-                    "text": "UcYusMP7Hn",
-                    "embed": "vV3y3QHd5r",
-                    "attachment": "OaBHwY9C5s",
-                    "split_message": "uAkRy65Ytb"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "text_first",
-                "info": {
-                    "x": 1197,
-                    "y": 1872,
-                    "z": 48,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Disconnecting..."
-                },
-                "outputs": {
-                    "text": [
-                        "UcYusMP7Hn"
-                    ]
-                }
-            },
-            {
-                "name": "clear_server_queue",
-                "info": {
-                    "x": 820,
-                    "y": 1856,
-                    "z": 49,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 212
-                },
-                "inputs": {
-                    "action": "1XLwPSqBnW",
-                    "server": "OFiQgZE5fb"
-                },
-                "outputs": {
-                    "action": []
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 26,
-                    "y": 2063,
-                    "z": 50,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "TeFv4Cvlmr"
-                },
-                "options": {
-                    "command_name": "pause",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "yes",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "WRnZHFWb7X"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [
-                        "YWZSN2nzdZ"
-                    ],
-                    "channel": [
-                        "y77KGGnndF"
-                    ],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "control_bot_audio",
-                "info": {
-                    "x": 835,
-                    "y": 2170,
-                    "z": 51,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 386
-                },
-                "inputs": {
-                    "action": "WRnZHFWb7X",
-                    "server": "YWZSN2nzdZ"
-                },
-                "options": {
-                    "audio_action_type": "pause"
-                },
-                "outputs": {
-                    "action": [
-                        "b8H7OSjg22"
-                    ]
-                }
-            },
-            {
-                "name": "text_first",
-                "info": {
-                    "x": 1237,
-                    "y": 2089,
-                    "z": 52,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Playback is Paused"
-                },
-                "outputs": {
-                    "text": [
-                        "gTfRruP6Mw"
-                    ]
-                }
-            },
-            {
-                "name": "send_message_first",
-                "info": {
-                    "x": 1250,
-                    "y": 2222,
-                    "z": 53,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "b8H7OSjg22",
-                    "channel": "y77KGGnndF",
-                    "text": "gTfRruP6Mw",
-                    "embed": "2idEGsSEvE",
-                    "attachment": "8IALjZP48s",
-                    "split_message": "hyuMmoFzA8"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 25,
-                    "y": 2485,
-                    "z": 54,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "T50Wcz1mmY"
-                },
-                "options": {
-                    "command_name": "Resume",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "yes",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "ErNZqPm7ff"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [
-                        "HpZvY9le2N"
-                    ],
-                    "channel": [
-                        "ZbiAbJNw6L"
-                    ],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "control_bot_audio",
-                "info": {
-                    "x": 822,
-                    "y": 2590,
-                    "z": 55,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 386
-                },
-                "inputs": {
-                    "action": "ErNZqPm7ff",
-                    "server": "HpZvY9le2N"
-                },
-                "options": {
-                    "audio_action_type": "resume"
-                },
-                "outputs": {
-                    "action": [
-                        "VHjMD16p0M"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1247,
-                    "y": 2513,
-                    "z": 56,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Playback is Resumed"
-                },
-                "outputs": {
-                    "text": [
-                        "I6wUAzvOoI"
-                    ]
-                }
-            },
-            {
-                "name": "send_message",
-                "info": {
-                    "x": 1253,
-                    "y": 2661,
-                    "z": 57,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "VHjMD16p0M",
-                    "channel": "ZbiAbJNw6L",
-                    "text": "I6wUAzvOoI",
-                    "embed": "KsaUye4oxr",
-                    "attachment": "lISqBYFYnH",
-                    "split_message": "EGax8r90TW"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "clear_server_queue",
-                "info": {
-                    "x": 944,
-                    "y": 3151,
-                    "z": 58,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 212
-                },
-                "inputs": {
-                    "action": "BzsCbF9HLk",
-                    "server": "HthKKjr6tm"
-                },
-                "outputs": {
-                    "action": []
-                }
-            },
-            {
-                "name": "control_bot_audio",
-                "info": {
-                    "x": 819,
-                    "y": 3008,
-                    "z": 59,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 386
-                },
-                "inputs": {
-                    "action": "1lBLyxIIPX",
-                    "server": "v3ynoZpmDW"
-                },
-                "options": {
-                    "audio_action_type": "end"
-                },
-                "outputs": {
-                    "action": [
-                        "BzsCbF9HLk"
-                    ]
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 28,
-                    "y": 2902,
-                    "z": 60,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "jj9SVq2N7f"
-                },
-                "options": {
-                    "command_name": "Clear",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "yes",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "1lBLyxIIPX"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [
-                        "v3ynoZpmDW",
-                        "HthKKjr6tm"
-                    ],
-                    "channel": [],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "get_youtube_video_infos",
-                "info": {
-                    "x": 1167,
-                    "y": 103,
-                    "z": 61,
-                    "color": "#5a5a5a",
-                    "height": 382,
-                    "width": 320
-                },
-                "inputs": {
-                    "action": "tn0vnXvjUs",
-                    "search_value": "psdwbaeX3I"
-                },
-                "outputs": {
-                    "action": [
-                        "sk8dNbu948"
-                    ],
-                    "title": [],
-                    "description": [],
-                    "duration": [],
-                    "views": [],
-                    "thumbnail": [],
-                    "url": [
-                        "mFigmQVbHy"
-                    ],
-                    "channel": [],
-                    "channelurl": [],
-                    "channelverified": []
-                }
-            }
-        ],
-        "notes": []
     }
 ]

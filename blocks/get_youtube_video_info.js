@@ -105,13 +105,13 @@ module.exports = {
                     result = video.views;
                     break;
                 case 6:
-                    result = video.thumbnail.split('?')[0];
+                    result = video.url.replace("https://www.youtube.com/watch?v=", "https://img.youtube.com/vi/") + "/maxresdefault.jpg"
                     break;
                 case 7:
                     result = video.uploaded_at;
                     break;
                 case 8:
-                    result = video.link;
+                    result = video.url;
                     break;
                 case 9:
                     result = video.author.name;

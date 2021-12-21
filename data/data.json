@@ -9,10 +9,26 @@
         ]
     },
     "discord": {
-        "servers": {},
+        "servers": {
+            "837883717531729921": {
+                "queue": 4,
+                "the queue list": [
+                    "1: wonder & Yun Head - Bandits [Remix] (Official Lyric Video) = 🎵***Current Track*** 🎵\n",
+                    "2: Yung Nugget - Simp Detector (Lyrics) \n",
+                    "3: undefined \n"
+                ]
+            }
+        },
         "members": {},
         "users": {}
     },
     "blocks": {},
-    "custom": {}
+    "custom": {},
+    "DRK": {
+        "prefixes": {
+            "main": "",
+            "servers": {}
+        },
+        "owners": []
+    }
 }
